@@ -3,7 +3,7 @@
 .grdTb5-1 {
     display: grid;
     grid-template-columns: 1fr repeat(8, 120px);
-    grid-template-rows: repeat(11, 48px);
+    grid-template-rows: repeat(12, 48px);
     gap: 0px 0px;
     grid-auto-flow: row;
     margin-bottom: 20px;
@@ -20,7 +20,8 @@
         "l6 l6_11 l6_12 l6_13 l6_tt1t l6_21 l6_22 l6_23 l6_tt2t"
         "l7 l7_11 l7_12 l7_13 l7_tt1t l7_21 l7_22 l7_23 l7_tt2t"
         "l8 l8_11 l8_12 l8_13 l8_tt1t l8_21 l8_22 l8_23 l8_tt2t"
-        "l9 l9_11 l9_12 l9_13 l9_tt1t l9_21 l9_22 l9_23 l9_tt2t";
+        "l9 l9_11 l9_12 l9_13 l9_tt1t l9_21 l9_22 l9_23 l9_tt2t"
+        "l10 l10_11 l10_12 l10_13 l10_tt1t l10_21 l10_22 l10_23 l10_tt2t";
 
     .title {
         grid-area: title;
@@ -1179,7 +1180,6 @@
     .l9_23 {
         grid-area: l9_23;
         border-left: 1px solid $clr_brdr;
-        border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
 
         input {
@@ -1192,6 +1192,124 @@
 
     .l9_tt2t {
         grid-area: l9_tt2t;
+        border-left: 1px solid $clr_brdr;
+        border-right: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+
+        input {
+            width: 80%;
+            height: 80%;
+            border: none !important;
+            padding: 2px 8px;
+        }
+    }
+
+    .l10 {
+        grid-area: l10;
+        color: $clr_p;
+        background-color: $clr_ss;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+        display: flex;
+        align-items: center;
+        padding: 8px;        
+    }
+
+    .l10_11 {
+        grid-area: l10_11;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+
+        input {
+            width: 80%;
+            height: 80%;
+            border: none !important;
+            padding: 2px 8px;
+        }
+    }
+
+    .l10_12 {
+        grid-area: l10_12;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+
+        input {
+            width: 80%;
+            height: 80%;
+            border: none !important;
+            padding: 2px 8px;
+        }
+    }
+
+    .l10_13 {
+        grid-area: l10_13;
+        border-left: 1px solid $clr_brdr;
+        border-right: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+
+        input {
+            width: 80%;
+            height: 80%;
+            border: none !important;
+            padding: 2px 8px;
+        }
+    }
+
+    .l10_tt1t {
+        grid-area: l10_tt1t;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+
+        input {
+            width: 80%;
+            height: 80%;
+            border: none !important;
+            padding: 2px 8px;
+        }
+    }
+
+    .l10_21 {
+        grid-area: l10_21;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+
+        input {
+            width: 80%;
+            height: 80%;
+            border: none !important;
+            padding: 2px 8px;
+        }
+    }
+
+    .l10_22 {
+        grid-area: l10_22;
+        border-left: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+
+        input {
+            width: 80%;
+            height: 80%;
+            border: none !important;
+            padding: 2px 8px;
+        }
+    }
+
+    .l10_23 {
+        grid-area: l10_23;
+        border-left: 1px solid $clr_brdr;
+        border-right: 1px solid $clr_brdr;
+        border-bottom: 1px solid $clr_brdr;
+
+        input {
+            width: 80%;
+            height: 80%;
+            border: none !important;
+            padding: 2px 8px;
+        }
+    }
+
+    .l10_tt2t {
+        grid-area: l10_tt2t;
         border-left: 1px solid $clr_brdr;
         border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
