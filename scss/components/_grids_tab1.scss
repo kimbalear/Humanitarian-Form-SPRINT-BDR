@@ -473,7 +473,7 @@
 .grdTb1-2 {
     display: grid;
     grid-template-columns: 1fr repeat(4, minmax(100px, 120px));
-    grid-template-rows: repeat(7, 48px);
+    grid-template-rows: repeat(6, 48px);
     gap: 0px 0px;
     grid-auto-flow: row;
     margin-bottom: 20px;
@@ -485,8 +485,7 @@
         "l2 l2c2 l2c3 l2c4 l2tt"
         "l3 l3c2 l3c3 l3c4 l3tt"
         "l4 l4c2 l4c3 l4c4 l4tt"
-        "l5 l5c2 l5c3 l5c4 l5tt"
-        "l6 l6c2tt l6c3tt l6c4tt l6tt";
+        "l5 l5c2 l5c3 l5c4 l5tt";
 
     .title {
         grid-area: title;
@@ -605,18 +604,6 @@
         border-bottom: 1px solid $clr_brdr;
         display: flex;
         align-items: center;
-        padding: 8px;
-    }
-
-    .l6 {
-        grid-area: l6;
-        color: $clr_ps;
-        background-color: $clr_s;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-        display: flex;
-        align-items: center;
-        justify-content: end;
         padding: 8px;
     }
 
@@ -874,56 +861,6 @@
 
     .l5tt {
         grid-area: l5tt;
-        border-left: 1px solid $clr_brdr;
-        border-right: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-        }
-    }
-
-    .l6c2tt {
-        grid-area: l6c2tt;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-        }
-    } 
-    .l6c3tt {
-        grid-area: l6c3tt;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-        }
-    }
-    .l6c4tt {
-        grid-area: l6c4tt;
-        border-left: 1px solid $clr_brdr;
-        border-bottom: 1px solid $clr_brdr;
-
-        input {
-            width: 80%;
-            height: 80%;
-            border: none !important;
-            padding: 2px 8px;
-        }
-    }
-    .l6tt {
-        grid-area: l6tt;
         border-left: 1px solid $clr_brdr;
         border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
@@ -1266,6 +1203,7 @@
     .g1c2l1 {
         grid-area: g1c2l1;
         border-left: 1px solid $clr_brdr;
+        border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
 
         input {
@@ -1303,6 +1241,7 @@
     .g1c2l2 {
         grid-area: g1c2l2;
         border-left: 1px solid $clr_brdr;
+        border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
 
         input {
@@ -1340,6 +1279,7 @@
     .g1c2l3 {
         grid-area: g1c2l3;
         border-left: 1px solid $clr_brdr;
+        border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
 
         input {
@@ -1378,6 +1318,7 @@
     .g1c2l3t {
         grid-area: g1c2l3t;
         border-left: 1px solid $clr_brdr;
+        border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
 
         input {
@@ -1426,6 +1367,7 @@
     .g2c2l1 {
         grid-area: g2c2l1;
         border-left: 1px solid $clr_brdr;
+        border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
 
         input {
@@ -1463,6 +1405,7 @@
     .g2c2l2 {
         grid-area: g2c2l2;
         border-left: 1px solid $clr_brdr;
+        border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
 
         input {
@@ -1500,6 +1443,7 @@
     .g2c2l3 {
         grid-area: g2c2l3;
         border-left: 1px solid $clr_brdr;
+        border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
 
         input {
@@ -1579,6 +1523,7 @@
     .g2c2l3t {
         grid-area: g2c2l3t;
         border-left: 1px solid $clr_brdr;
+        border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
 
         input {
@@ -1627,6 +1572,7 @@
     .g3c2l1 {
         grid-area: g3c2l1;
         border-left: 1px solid $clr_brdr;
+        border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
 
         input {
@@ -1664,6 +1610,7 @@
     .g3c2l2 {
         grid-area: g3c2l2;
         border-left: 1px solid $clr_brdr;
+        border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
 
         input {
@@ -1701,6 +1648,7 @@
     .g3c2l3 {
         grid-area: g3c2l3;
         border-left: 1px solid $clr_brdr;
+        border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
 
         input {
@@ -1739,6 +1687,7 @@
     .g3c2l3t {
         grid-area: g3c2l3t;
         border-left: 1px solid $clr_brdr;
+        border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
 
         input {
@@ -1787,6 +1736,7 @@
     .g4c2l1 {
         grid-area: g4c2l1;
         border-left: 1px solid $clr_brdr;
+        border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
 
         input {
@@ -1824,6 +1774,7 @@
     .g4c2l2 {
         grid-area: g4c2l2;
         border-left: 1px solid $clr_brdr;
+        border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
 
         input {
@@ -1861,6 +1812,7 @@
     .g4c2l3 {
         grid-area: g4c2l3;
         border-left: 1px solid $clr_brdr;
+        border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
 
         input {
@@ -1899,6 +1851,7 @@
     .g4c2l3t {
         grid-area: g4c2l3t;
         border-left: 1px solid $clr_brdr;
+        border-right: 1px solid $clr_brdr;
         border-bottom: 1px solid $clr_brdr;
 
         input {
