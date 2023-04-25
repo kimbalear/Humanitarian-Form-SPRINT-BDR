@@ -337,7 +337,7 @@
 .grdTb1-3 {
     display: grid;
     grid-template-columns: 1fr 120px;
-    grid-template-rows: repeat(6, minmax(48px, auto));
+    grid-template-rows: repeat(5, minmax(48px, auto));
     gap: 0px 0px;
     grid-auto-flow: row;
     margin-bottom: 20px;
@@ -514,6 +514,7 @@
     grid-auto-columns: 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
+    margin-bottom: 20px;
     grid-template-areas:
         "tt t1 t2 t3"
         "l1 l1c1 l1c2 l1c3"
